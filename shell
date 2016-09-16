@@ -1,1 +1,1 @@
-docker run -i -t xebia-france/rust-xke /bin/bash
+docker run -i -t -v build-dir:/src xebia-france/rust-xke /bin/bash
