@@ -1,0 +1,1 @@
+docker run -it xebia-france/rust-xke
