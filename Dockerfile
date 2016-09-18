@@ -1,7 +1,13 @@
-FROM scorpil/rust:1.11
+FROM liuchong/rustup:nightly
+
 MAINTAINER fagossa
 
-ADD build-dir /source
+VOLUME ["source"]
+
 WORKDIR /source
+
+RUN rustup update
+
+RUN export USER=root
 
 CMD ["/bin/bash"]

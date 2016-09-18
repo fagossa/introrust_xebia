@@ -1,1 +1,1 @@
-docker run -i -t -v build-dir:/src xebia-france/rust-xke /bin/bash
+docker run -it -v $PWD/workspace:/source xebia-france/rust-xke /bin/bash

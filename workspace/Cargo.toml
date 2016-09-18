@@ -1,0 +1,11 @@
+[package]
+name = "introlang_xke"
+version = "0.1.0"
+authors = ["Xebia France"]
+license = "MIT / Apache-2.0"
+
+[dev-dependencies]
+stainless = "*"
+
+[dependencies]
+time = "0.1.12"
