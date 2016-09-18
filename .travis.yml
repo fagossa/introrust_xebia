@@ -1,11 +1,10 @@
 language: rust
+cache: cargo
 rust:
   - nightly
-  - beta
-  - stable
 
-matrix:
-  allow_failures:
-    - rust: nightly
+script:
+  - cargo build
+  - cargo test
 
 before_script: cd workspace
