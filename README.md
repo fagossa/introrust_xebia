@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/fagossa/introrust_xebia.svg?branch=master)](https://travis-ci.org/fagossa/introrust_xebia)
-
-# Getting started with Rust lang
+# Getting started with Rust lang [![Build Status](https://travis-ci.org/fagossa/introrust_xebia.svg?branch=master)](https://travis-ci.org/fagossa/introrust_xebia)
 
 We provided a docker image containing all the needed environment. In order to start working with the code, you need to type the following:
 
